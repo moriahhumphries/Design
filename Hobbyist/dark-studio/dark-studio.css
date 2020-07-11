@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-container {
+    height: 100vh;
+    width: 100vw;
+    background-image:
+            linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.4)
+    ),
+    url("../img/dark-studio.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Abril Fatface', cursive;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+
+#main-title {
+    width: 100vw;
+    font-size: 12em;
+    color: rgba(250, 237, 230, 0.9);
+    /*color: #ecfbfd;*/
+    position: absolute;
+    top: 5%;
+    /*right: 15%;*/
+}
+
+#description {
+    width: 35vw;
+    font-size: 4em;
+    color: rgba(250, 237, 230, 0.9);
+    position: absolute;
+    top: 70%;
+    right: 10%;
+
+}
+
