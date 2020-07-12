@@ -4,7 +4,15 @@
     box-sizing: border-box;
 }
 
+html {
+    width: 100vw;
+}
 #main-container {
+    width: 100vw;
+}
+/*Index - Above the fold*/
+
+#above-fold {
     height: 100vh;
     width: 100vw;
     background-image: url("../../img/desk.jpg");
@@ -12,26 +20,27 @@
     background-position: center;
     background-repeat: no-repeat;
     font-family: 'Bungee Shade', cursive;
-
-
+    overflow-y: scroll;
 }
-
 
 #main-title {
     width: 100vw;
+    display: block;
     font-size: 11em;
-    color: rgba(111, 5, 12, 0.9);
+    color: rgba(146, 9, 18, 0.9);
+    /*color: rgba(111, 5, 12, 0.9);*/
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     position: absolute;
-    top: 10%;
+    top: 15%;
     right: -12%;
 }
 
-#description {
-    width: 25vw;
-    font-size: 3em;
-    color: rgba(0, 0, 0, 0.8);
-    position: absolute;
-    top: 24%;
-    right: 20%;
+/*#description {*/
+/*    width: 25vw;*/
+/*    font-size: 3em;*/
+/*    color: rgba(0, 0, 0, 0.8);*/
+/*    position: absolute;*/
+/*    top: 24%;*/
+/*    right: 20%;*/
 
-}
+/*}*/
