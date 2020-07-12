@@ -29,12 +29,12 @@ html {
     font-size: 2em;
 }
 
-/*#navbar-list {*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    justify-content: space-between;*/
-/*    margin: 10px;*/
-/*}*/
+#navbar-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
 
 #above-fold {
     height: 100vh;
