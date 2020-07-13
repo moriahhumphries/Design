@@ -88,3 +88,77 @@ html {
 
 
 #small-friends-list
+
+
+    /*Large and XL Site*/
+
+#profile-container-small {
+    width: 100vw;
+}
+/*Large Index - Above the fold*/
+
+#profile-navbar-placeholder-large {
+    width: 100vw;
+    height: 8vh;
+    position: fixed;
+    display: block;
+    z-index: 1000;
+    background-color: #212121;
+    font-family: 'Bungee Shade', cursive;
+    color: white;
+    font-size: 2em;
+}
+
+
+#profile-navbar-list-large {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+#profile-above-fold-large {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../../img/desk.jpg");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Bungee Shade', cursive;
+    overflow-y: scroll;
+}
+
+#large-profile-header, #large-friends-header, #large-badges-header {
+    font-size: 4em;
+    color: rgba(146, 9, 18, 0.9);
+    font-family: 'Bungee Shade', cursive;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    margin-top: 100px;
+
+}
+
+#large-photo {
+    width: 30vw;
+    height: auto;
+    border-radius: 50px;
+}
+
+/*Hobby Badges*/
+
+.large-badge {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+
+}
+
+#large-badge-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/*Friends List*/
