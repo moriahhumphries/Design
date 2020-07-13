@@ -51,7 +51,7 @@ html {
     overflow-y: scroll;
 }
 
-#small-profile-header {
+#small-profile-header, #small-friends-header {
     font-size: 4em;
     color: rgba(146, 9, 18, 0.9);
     font-family: 'Bungee Shade', cursive;
@@ -65,3 +65,8 @@ html {
     height: auto;
     border-radius: 50px;
 }
+
+/*Friends List*/
+
+
+#small-friends-list
