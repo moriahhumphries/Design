@@ -18,7 +18,7 @@ html {
 #profile-container-small {
     width: 100vw;
 }
-/*Index - Above the fold*/
+/*Small Index - Above the fold*/
 
 #profile-navbar-placeholder-small {
     width: 100vw;
@@ -47,6 +47,7 @@ html {
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: 'Bungee Shade', cursive;
     overflow-y: scroll;
 }
