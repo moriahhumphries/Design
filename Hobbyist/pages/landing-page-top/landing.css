@@ -24,6 +24,7 @@ html {
     width: 100vw;
     height: 8vh;
     position: fixed;
+    top: 0;
     display: block;
     z-index: 1000;
     background-color: #212121;
