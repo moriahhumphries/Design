@@ -51,7 +51,7 @@ html {
     overflow-y: scroll;
 }
 
-#small-profile-header, #small-friends-header {
+#small-profile-header, #small-friends-header, #small-badges-header {
     font-size: 4em;
     color: rgba(146, 9, 18, 0.9);
     font-family: 'Bungee Shade', cursive;
@@ -61,10 +61,27 @@ html {
 }
 
 #small-photo {
-    width:70vw;
+    width: 70vw;
     height: auto;
     border-radius: 50px;
 }
+
+/*Hobby Badges*/
+
+.small-badge {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+
+}
+
+#small-badge-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 
 /*Friends List*/
 
