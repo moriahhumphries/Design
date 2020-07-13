@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+html {
+    width: 100vw;
+}
+
+/*Small M and S and XS Site*/
+
+#profile-container-small {
+    width: 100vw;
+}
+/*Index - Above the fold*/
+
+#navbar-placeholder-small {
+    width: 100vw;
+    height: 8vh;
+    position: fixed;
+    display: block;
+    z-index: 1000;
+    background-color: #212121;
+    font-family: 'Bungee Shade', cursive;
+    color: white;
+    font-size: 1.5em;
+}
+
+#navbar-list-small {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+}
