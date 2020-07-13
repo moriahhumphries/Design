@@ -38,7 +38,7 @@
         <div id="small-main-buttons" class="center-align">
             <button class="btn grey darken-4 waves-effect waves-light btn-large open-button" onclick="openLoginForm()" type="submit" name="action">Login</button>
 
-            <div class="form-popup" id="login-form">
+            <div class="form-popup" id="small-login-form">
                 <form action="#" class="form-container center-align">
                     <h1>Login</h1>
 
@@ -57,7 +57,7 @@
 
             <button class="btn grey darken-4 waves-effect waves-light btn-large open-button" onclick="openJoinForm()" type="submit" name="action">Join</button>
 
-            <div class="form-popup center-align" id="join-form">
+            <div class="form-popup center-align" id="small-join-form">
                 <form action="#" class="form-container">
                     <h1>Join</h1>
 
@@ -71,66 +71,6 @@
                     <button type="button" class="btn cancel grey darken-4 waves-effect waves-light btn-large" onclick="closeJoinForm()">Close</button>
                 </form>
             </div>
-
-
-
-                <!--            <button class="btn grey darken-4 waves-effect waves-light btn-large dropdown-trigger" type="submit" name="action" data-target='dropdown1'>Login-->
-
-<!--            </button>-->
-<!--            &lt;!&ndash; Login Dropdown Structure &ndash;&gt;-->
-<!--            <ul id='dropdown1' class='dropdown-content'>-->
-<!--                <li class="spacer center-align"><button class="btn grey darken-4 waves-effect waves-light btn-large center-align">Login</button></li>-->
-<!--                <li><div class="row">-->
-<!--                    <div class="input-field col s12">-->
-<!--                        <input id="login-email" type="email" class="validate">-->
-<!--                        <label for="email">Email</label>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                    <div class="row">-->
-<!--                        <div class="input-field col s12">-->
-<!--                            <input id="login-password" type="password" class="validate">-->
-<!--                            <label for="password">Password</label>-->
-<!--                        </div>-->
-<!--                    </div></li>-->
-<!--            </ul>-->
-
-<!--            <button class="btn grey darken-4 waves-effect waves-light btn-large dropdown-trigger" type="submit" name="action" data-target='dropdown2'>Join-->
-<!--            </button>-->
-
-<!--            &lt;!&ndash; Signup Dropdown Structure &ndash;&gt;-->
-<!--            <ul id='dropdown2' class='dropdown-content'>-->
-<!--                <li class="spacer center-align"><button class="btn grey darken-4 waves-effect waves-light btn-large center-align">Join</button></li>-->
-
-<!--                <li><div class="row">-->
-<!--                    <form class="col s12">-->
-<!--                        <div class="row">-->
-<!--                            <div class="input-field col s12">-->
-<!--                                <input id="first_name" type="text" class="validate">-->
-<!--                                <label for="first_name">First Name</label>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="row">-->
-<!--                            <div class="input-field col s12">-->
-<!--                                <input id="last_name" type="text" class="validate">-->
-<!--                                <label for="last_name">Last Name</label>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="row">-->
-<!--                            <div class="input-field col s12">-->
-<!--                                <input id="email" type="email" class="validate">-->
-<!--                                <label for="email">Email</label>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="row">-->
-<!--                            <div class="input-field col s12">-->
-<!--                                <input id="password" type="password" class="validate">-->
-<!--                                <label for="password">Password</label>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </form>-->
-<!--                </div></li>-->
-<!--            </ul>-->
-
         </div>
 
     </div>
@@ -221,6 +161,21 @@
 </div>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--Desktop L and XL Site-->
 <div id="main-container-large" class="show-on-large show-on-extra-large hide-on-med-and-down">
     <div id="above-fold-large">
@@ -235,15 +190,51 @@
 
         <h1 id="main-title-large">Hobbyist</h1>
 
-        <div id="large-main-buttons">
-            <button class="btn grey darken-4 waves-effect waves-light btn-large" type="submit" name="action">Login
+        <div id="large-main-buttons" class="center-align">
+            <button class="btn grey darken-4 waves-effect waves-light btn-large open-button" onclick="openLargeLoginForm()" type="submit" name="action">Login</button>
 
-            </button>
-            <button class="btn grey darken-4 waves-effect waves-light btn-large" type="submit" name="action">Join
+            <div class="form-popup" id="large-login-form">
+                <form action="#" class="form-container center-align">
+                    <h1>Login</h1>
 
-            </button>
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
 
+                    <label for="password"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button type="submit" class="btn grey darken-4 waves-effect waves-light btn-large">Login</button>
+                    <button type="button" class="btn cancel grey darken-4 waves-effect waves-light btn-large" onclick="closeLargeLoginForm()">Close</button>
+                </form>
+            </div>
+
+            <button class="btn grey darken-4 waves-effect waves-light btn-large open-button" onclick="openLargeJoinForm()" type="submit" name="action">Join</button>
+
+            <div class="form-popup center-align" id="large-join-form">
+                <form action="#" class="form-container">
+                    <h1>Join</h1>
+
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+
+                    <label for="password"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button type="submit" class="btn grey darken-4 waves-effect waves-light btn-large">Join</button>
+                    <button type="button" class="btn cancel grey darken-4 waves-effect waves-light btn-large" onclick="closeLargeJoinForm()">Close</button>
+                </form>
+            </div>
         </div>
+
+<!--        <div id="large-main-buttons">-->
+<!--            <button class="btn grey darken-4 waves-effect waves-light btn-large" type="submit" name="action">Login-->
+
+<!--            </button>-->
+<!--            <button class="btn grey darken-4 waves-effect waves-light btn-large" type="submit" name="action">Join-->
+
+<!--            </button>-->
+
+<!--        </div>-->
 
     </div>
 
