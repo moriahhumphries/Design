@@ -137,12 +137,12 @@ html {
     bottom: 0;
     border: 3px solid #f1f1f1;
     z-index: 900;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, .50);
     color: black;
 }
 
 .form-container {
     max-width: 90vw;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, .50);
 }
