@@ -32,16 +32,16 @@
         </div>
 
 
-
+<!--Small Buttons Section-->
         <div id="small-main-buttons" class="center-align">
-
 
             <button class="btn grey darken-4 waves-effect waves-light btn-large dropdown-trigger" type="submit" name="action" data-target='dropdown1'>Login
 
             </button>
             <!-- Login Dropdown Structure -->
             <ul id='dropdown1' class='dropdown-content'>
-                <li><a href="#!">  <div class="row">
+                <li class="btn spacer grey darken-4 waves-effect waves-light btn-large">Login</li>
+                <li><div class="row">
                     <div class="input-field col s12">
                         <input id="login-email" type="email" class="validate">
                         <label for="email">Email</label>
@@ -52,7 +52,7 @@
                             <input id="login-password" type="password" class="validate">
                             <label for="password">Password</label>
                         </div>
-                    </div></a></li>
+                    </div></li>
             </ul>
 
             <button class="btn grey darken-4 waves-effect waves-light btn-large dropdown-trigger" type="submit" name="action" data-target='dropdown2'>Join
@@ -60,14 +60,18 @@
 
             <!-- Signup Dropdown Structure -->
             <ul id='dropdown2' class='dropdown-content'>
-                <li><a href="#!"> <div class="row">
+                <li class="spacer grey darken-4 waves-effect waves-light btn-large center-align"><button class="btn grey darken-4 waves-effect waves-light btn-large center-align">Join</button></li>
+
+                <li><div class="row">
                     <form class="col s12">
                         <div class="row">
-                            <div class="input-field col s6">
-                                <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                            <div class="input-field col s12">
+                                <input id="first_name" type="text" class="validate">
                                 <label for="first_name">First Name</label>
                             </div>
-                            <div class="input-field col s6">
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
                                 <input id="last_name" type="text" class="validate">
                                 <label for="last_name">Last Name</label>
                             </div>
@@ -85,7 +89,7 @@
                             </div>
                         </div>
                     </form>
-                </div></a></li>
+                </div></li>
             </ul>
 
         </div>
