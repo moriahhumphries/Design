@@ -46,6 +46,7 @@ html {
     background-image: url("../../img/desk.jpg");
     background-size: cover;
     background-position: left;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     font-family: 'Bungee Shade', cursive;
     overflow-y: scroll;
