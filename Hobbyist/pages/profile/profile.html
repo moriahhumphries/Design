@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Profile</title>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&display=swap" rel="stylesheet">
     <!--    Materialize Framework-->
     <link type="text/css" rel="stylesheet" href="../../CSS/materialize.css" media="screen,projection"/>
     <!--    Icons-->
@@ -67,7 +67,7 @@
             </ul>
 
 
-            </div>
+        </div>
 
         <!--Friends List-->
         <div id="small-friends-list">
@@ -113,8 +113,8 @@
 
 <!--Main Profile Large-->
 
-<!--Main Profile Small-->
-    <div id="profile-container-large" class="show-on-large show-on-extra-large hide-on-med-and-down">
+
+<div id="profile-container-large" class="show-on-large show-on-extra-large hide-on-med-and-down">
 
     <!--Profile Navbar Placeholder large-->
 
@@ -130,80 +130,86 @@
 
 
         <!--        Profile Header-->
-        <h1 id="large-profile-header" class="center-align">Profile</h1>
-
-        <!--        Profile Image and Upload/Edit-->
-
-        <div id="large-profile-image" class="center-align">
-            <img id="large-photo" class="center-align" src="../../img/moriah-small.png" alt="profile picture"/>
 
 
-            <!--        Edit and Upload Profile Photo Buttons-->
-            <div id="large-profile-photo-controls">
-                <button class="btn grey darken-4 waves-effect waves-light">
-                    Upload
-                    <form action="#">
-                    </form>
-                </button>
-                <button class="btn grey darken-4 waves-effect waves-light">Edit</button>
 
+        <!--        Profile Image-->
+        <div id="profile-panels">
+            <div id="left-div">
+                <h1 id="large-profile-header" class="center-align">Account</h1>
+                <div id="large-profile-image" class="center-align">
+                    <img id="large-photo" class="center-align" src="../../img/moriah-small.png" alt="profile picture"/>
+                    <p id="large-bio" class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam consectetur doloribus ea, excepturi facilis impedit iste numquam odio odit perspiciatis quae quam, ratione recusandae reprehenderit sequi totam unde vel?</p>
+
+
+                    <!--        Edit and Upload Profile Photo Buttons-->
+                    <div id="large-profile-photo-controls">
+                        <button class="btn grey darken-4 waves-effect waves-light">
+                            Upload Photo
+                        </button>
+                        <button class="btn grey darken-4 waves-effect waves-light">Edit Profile</button>
+                        <button class="btn grey darken-4 waves-effect waves-light">Edit Account</button>
+
+                    </div>
+                </div>
             </div>
-        </div>
 
-        <!--        Badges-->
+            <!--        Badges-->
+            <div id="middle-div">
+                <div id="badges-large">
+                    <h1 class="center-align" id="large-badges-header">Badges</h1>
+                    <ul id="large-badge-list">
+                        <li><img class="large-badge" src="../../img/hobby-badge.png"/></li>
+                        <li><img class="large-badge" src="../../img/hobby-badge.png"/></li>
+                        <li><img class="large-badge" src="../../img/hobby-badge.png"/></li>
+                        <li><img class="large-badge" src="../../img/hobby-badge.png"/></li>
+                        <li><img class="large-badge" src="../../img/hobby-badge.png"/></li>
+                        <li><img class="large-badge" src="../../img/hobby-badge.png"/></li>
+                    </ul>
+                </div>
+            </div>
 
-        <div id="badges-large">
-            <h1 class="center-align" id="large-badges-header">Badges</h1>
-            <ul id="large-badge-list">
-                <li><img class="large-badge" src="../../img/hobby-badge.png"/></li>
-                <li><img class="large-badge" src="../../img/hobby-badge.png"/></li>
-                <li><img class="large-badge" src="../../img/hobby-badge.png"/></li>
-                <li><img class="large-badge" src="../../img/hobby-badge.png"/></li>
-                <li><img class="large-badge" src="../../img/hobby-badge.png"/></li>
-                <li><img class="large-badge" src="../../img/hobby-badge.png"/></li>
-            </ul>
+            <!--Friends List-->
+            <div id="right-div">
+                <div id="large-friends-list">
+                    <h1 class="center-align" id="large-friends-header">Friends</h1>
+                    <ul class="collection">
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle green">insert_chart</i>
+                            <span class="title">Title</span>
+                            <p>First Line <br>
+                                Second Line
+                            </p>
+                            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">folder</i>
+                            <span class="title">Title</span>
+                            <p>First Line <br>
+                                Second Line
+                            </p>
+                            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle green">insert_chart</i>
+                            <span class="title">Title</span>
+                            <p>First Line <br>
+                                Second Line
+                            </p>
+                            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle red">play_arrow</i>
+                            <span class="title">Title</span>
+                            <p>First Line <br>
+                                Second Line
+                            </p>
+                            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                        </li>
+                    </ul>
 
-
-        </div>
-
-        <!--Friends List-->
-        <div id="large-friends-list">
-            <h1 class="center-align" id="large-friends-header">Friends</h1>
-            <ul class="collection">
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">insert_chart</i>
-                    <span class="title">Title</span>
-                    <p>First Line <br>
-                        Second Line
-                    </p>
-                    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle">folder</i>
-                    <span class="title">Title</span>
-                    <p>First Line <br>
-                        Second Line
-                    </p>
-                    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">insert_chart</i>
-                    <span class="title">Title</span>
-                    <p>First Line <br>
-                        Second Line
-                    </p>
-                    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle red">play_arrow</i>
-                    <span class="title">Title</span>
-                    <p>First Line <br>
-                        Second Line
-                    </p>
-                    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-                </li>
-            </ul>
-
+                </div>
+            </div>
         </div>
     </div>
 </div>
