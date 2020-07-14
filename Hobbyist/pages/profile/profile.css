@@ -97,6 +97,11 @@ html {
 }
 /*Large Index - Above the fold*/
 
+#profile-container-large {
+    height: 100vh!important;
+    width: 100vw;
+}
+
 #profile-navbar-placeholder-large {
     width: 100vw;
     height: 8vh;
@@ -122,9 +127,11 @@ html {
     flex-direction: row;
     justify-content: space-around;
 }
+
 #profile-above-fold-large {
     height: 100vh;
     width: 100vw;
+    display: block;
     background-image: url("../../img/desk.jpg");
     background-size: cover;
     background-position: right;
@@ -139,7 +146,7 @@ html {
     color: rgba(146, 9, 18, 0.9);
     font-family: 'Bungee Shade', cursive;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    margin-top: 100px;
+    margin-top: 8vh;
 
 }
 
@@ -151,6 +158,7 @@ html {
 
 #left-div, #middle-div, #right-div {
     width: 30vw;
+    height: 100vh;
 }
 
 #large-bio {
